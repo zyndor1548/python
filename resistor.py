@@ -1,6 +1,5 @@
-print ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 print ("\tResistor color coding decoder")
-print ("\n\n\n")
+print ("\n\n")
 color = []
 colornum = { "black" : "0", "brown" : "1", "red" : "2", "orange" : "3", "yellow" : "4" , "green" : "5", "blue" : "6", "violet" : "7" ,"grey" : "8" , "white" : "9" }
 colorraise = { "black" : "⁰", "brown" : "¹", "red" : "²", "orange" : "³", "yellow" : "⁴" , "green" : "⁵", "blue" : "⁶", "violet" : "⁷" ,"grey" : "⁸" , "white" : "⁹" }
@@ -34,4 +33,4 @@ for i in range (4):
     else:
         colorcode += f"  {tolerance[color[i]]}"
 
-print ("\n\n\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresistance = ",colorcode)
+print ("\n\nresistance = ",colorcode)
